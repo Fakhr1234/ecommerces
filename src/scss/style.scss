@@ -1,0 +1,54 @@
+@import './variables';
+@import './custom-table';
+@import './mixin';
+@import './custom.scss';
+.custom-form-control
+,.custom-btn{
+    border:1px solid #ebebeb;
+    font-size:14px;
+    border-radius:2px;
+    box-shadow:none;
+    transition:all 0.5s ease;
+    padding:6px 16px 7px 16px;
+    color:#868686;
+}
+.custom-btn:hover{
+    background-color: #d4d4d4;
+    color: $btn-primary-color-dark !important;
+    border:1px solid#8c8c8c;
+}
+.custom-form-control:focus{
+    border-color:$brand-danger !important;
+    box-shadow:  0 0 2px 0 $brand-danger !important;
+}
+.custom-btn-primary{
+  @include button-style($brand-primary,$btn-primary-color-dark );
+}
+
+.custom-btn-primary2{
+    color:#000;
+    background-color:$brand-primary !important;
+    border:$brand-primary !important;
+
+&:hover,
+&:active,
+&:focus,
+&:active:focus,
+&:active:hover{
+    background-color: $btn-primary-color-dark;
+    color: #000;
+    border: $btn-primary-color-dark;
+}
+}
+
+.custom-btn-danger{
+    color:$brand-danger !important;
+background-color: transparent;
+border-color:$brand-danger !important;
+border-radius:3px;
+&:hover{
+    color: $btn-danger-color-dark !important;
+    border-color:$btn-danger-color-dark!important;
+    background-color: transparent;
+}
+}

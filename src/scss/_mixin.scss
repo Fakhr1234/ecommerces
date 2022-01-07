@@ -1,0 +1,16 @@
+@mixin button-style($color,$color-dark) {
+    color:$color !important;
+    border-color:$color !important;
+    background-color:transparent;
+
+  &:hover,
+&:active,
+&:focus,
+&:active:focus,
+&:active:hover{
+   color:$color-dark !important;
+   border-color:$color-dark !important;
+   background-color:transparent;
+}
+  
+}

@@ -1,0 +1,64 @@
+.custom-table{
+    th,td{
+        padding:15px;
+    border-bottom:1px solid #ebebeb;
+    border-top:1px solid #ebebeb;
+    font-size:20px;
+
+    &:first-child   {
+       width: 50%;
+   }
+    }
+   
+
+
+th{
+    color:#c2c2c2;
+    font-weight: normal;
+
+    &:first-child{
+        padding-right: 20px;
+    }
+}
+.quantity{
+    width: 56px;
+   height:34 !important;
+   padding: 0 8px;
+   text-align: center;
+   margin: 0 auto;
+   }
+ .custom-media {
+    margin-left: 15px;
+	margin-right: 15px;
+    margin-bottom: 15px;   
+
+    h4 {
+        font-size: 18px;
+        margin: 12px 0;
+    }
+
+    img{
+        height:80px;
+        width:80px;
+        border: 1px solid #EBEBEB;
+        margin-left: 10px;
+    }
+}
+
+ tfoot{
+      td{
+    border-bottom: none;
+    font-size:150%;
+    
+}
+ }
+}
+
+
+
+
+
+
+ 
+
+
